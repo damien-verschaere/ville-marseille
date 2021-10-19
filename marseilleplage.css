@@ -1,0 +1,47 @@
+header{
+    height: 200px;
+    background-color: aqua;
+}
+footer{
+    height: 200px;
+    background-color: aqua;
+}
+#plage1,#plage3{
+    height: 400px;
+    background-color: #0097d7;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 15px;
+}
+#plage1 p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#plage3 p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#plage2,#plage4{
+    height: 400px;
+    background-color: #0097d7;
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 10px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 15px;
+    
+}
+
+#plage2 p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#plage4 p{
+    margin-left: 3%;
+    margin-right: 3%;  
+}
+
