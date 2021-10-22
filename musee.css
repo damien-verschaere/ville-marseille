@@ -2,11 +2,29 @@ header{
     background-color: blue;
     height: 300px;
 }
+.listeM{
+    width: 40px;
+    margin-right: 10%;
+    list-style: none;
+    position: fixed;
+
+   
+}
 main{
     display: flex;
+    justify-content: flex-end;
 }
 .musee2{
     display: flex;
+    justify-content: flex-end;
+}
+.musee3{
+    display: flex;
+    justify-content: flex-end;
+}
+.musee4{
+    display: flex;
+    justify-content: flex-end;
 }
 .parallelogramme{
     display: flex;
@@ -14,13 +32,13 @@ main{
     align-items: center;
     margin-bottom: 15%;
     margin-top: 15%;
-    
     width:600px;
 	height:300px;
 	background-image: url(image/musee/mucem.jpg);
     transform: rotate(90deg);
 }
-.parallelogramme h2{
+.parallelogramme h2,.paralellogramme2 h2,.paralellogramme3 h2,.paralellogramme4 h2,.paralellogramme5 h2,
+.paralellogramme6 h2,.paralellogramme7 h2,.paralellogramme8 h2{
     color: white;
     font-size: 50px;
 }
@@ -35,10 +53,7 @@ main{
 	background-image: url(image/musee/histoiremarseille.jpg);
     transform: rotate(90deg);
 }
-.paralellogramme2 h2{
-    color: white;
-    font-size: 50px;
-}
+
 .paralellogramme3{
     display: flex;
     justify-content: center;
@@ -50,10 +65,7 @@ main{
 	background-image: url(image/musee/vieillecharite.png);
     transform: rotate(90deg);
 }
-.paralellogramme3 h2{
-    color: white;
-    font-size: 50px;
-}
+
 .paralellogramme4{
     display: flex;
     justify-content: center;
@@ -65,13 +77,76 @@ main{
 	background-image: url(image/musee/cantini.jpg);
     transform: rotate(90deg);
 }
+
+.paralellogramme5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    width:600px;
+	height:300px;
+	background-image: url(image/musee/MAC.jpg);
+    transform: rotate(90deg);
+}
+
+.paralellogramme6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    width:600px;
+	height:300px;
+	background-image: url(image/musee/lafriche.jpg);
+    transform: rotate(90deg);
+}
+
+.paralellogramme7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    width:600px;
+	height:300px;
+	background-image: url(image/musee/museesavon.jpg);
+    transform: rotate(90deg);
+}
+.paralellogramme8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    width:600px;
+	height:300px;
+	background-image: url(image/musee/maisondelab.jpg);
+    transform: rotate(90deg);
+}
 #zoom {
     
     transition: transform .1s; /* Animation */
    
   }
   #zoom:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     margin-left: 5%;
     margin-right: 5%;
+}
+#mucem,#HDM,#VC,#MC,#MAC,#FRICHE,#SAVON,#PETANQUE{
+  background-color: aqua;  
+  display: flex;
+  border: 2px solid black;
+  margin-top: 2%;
+    
+}
+#mucem  p,#HDM p,#VC p,#MC p,#MAC p,#FRICHE p,#SAVON p,#PETANQUE p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size:25px;
+    color: white;
+}
+.tabmucem,.tabVC,.tabMC{
+    width: 100px;
 }
