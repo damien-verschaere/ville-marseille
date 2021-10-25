@@ -3,7 +3,15 @@ html,body{
     margin: 0;
     padding: 0;
 }
-
+.intro{
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+   font-family:  "Orkney Bold",sans-serif;
+   color: rgba(0,151,215,1);
+   font-size: 25px;
+}
 
 main{
     display: flex;
