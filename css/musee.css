@@ -36,10 +36,29 @@
     margin-top: 15%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
    font-family:  "Orkney Bold",sans-serif;
    color: rgba(0,151,215,1);
    font-size: 25px;
 }
+.listeMU{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2%;
+}
+.listeMU li{
+    display: inline;
+    list-style: none;
+    text-decoration: none; 
+    margin-left: 40px;
+
+}
+.listeMU a{
+    text-decoration: none;
+    font-family:  "Orkney Bold",sans-serif;
+    color:rgba(0,151,215)
+}
+
 .slideshow{
     border: 5px solid white;
     box-shadow: 0 0 5px rgba(0,151,215,1);
@@ -59,7 +78,7 @@
 .slideshow li{
     top: 0;
     left: 0;
-    animation: slideshow 25s ease infinite;
+    animation: slideshow 21s ease infinite;
     position: absolute;
     opacity: 0;
     }
@@ -103,7 +122,8 @@
         border:2px solid rgba(0,151,215,1);
     }
     #mucem img,#VC img,#MAC img,#SAVON img{
-        margin-left: 2%;
+        margin-left: -0.%;
+        border-radius: 30px;
 
     }
     #HDM,#MC,#FRICHE,#PETANQUE{
@@ -119,7 +139,7 @@
         border:2px solid rgba(0,151,215,1);
     }
     #HDM img,#MC img,#FRICHE img,#PETANQUE img{
-        margin-right: 2%;
+        border-radius: 30px;
     }
     #mucem p,#HDM p,#VC p,#MC p,#MAC p,#FRICHE p,#SAVON p,#PETANQUE p{
         margin-left: 2%;
