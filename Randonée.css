@@ -3,9 +3,8 @@ html,body{
     padding: 0%;
 }
 
-header {
-   
-    }
+/* header {
+    } */
 
 body{
     background-size: cover;
@@ -16,41 +15,44 @@ body{
 
 
 .contenaire{ 
-    background-image: url(./image/randonée/5Ulu_I7SKOFIiSmuPLgnaKbqNnWjxXzJ0TtqIOtj3UzsjKWWx71eNwlMZYYHRd7bhcYA7fqltoiiVU09dzD4tqirQzYzhWP760kLMXS7CVOzHsw3PYtqqaSwCZe4lS4-pnGcUWnXipIE2kDj5wjSjbBFgcPZUr0WmynJ-Cx7_pD85t1NMY4AzD7eho8SJmI6JbcOJUMInCDRAdqx40tbRcynj28iF4.jpg);
-margin: -2%;
+    background-image: url(./image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
-    height: 102vh;
+    height: 100vh;
     background-size: cover;
 }
 
 
 .textedanslimage1{
-padding: 0%;
 position: absolute;
 color: white;
-font-size: large;
 top: 50%;
-left: 43%;
-transform: translate(-50%, -5);
+left: 30%;
+background-color: black;
+
+}
+
+
+
+.contenaire1 , .contenaire2 , .rang3 , .ligne1{
+  display: flex;  
+  padding-top: 5%;
+  padding-bottom: 7%;
 }
 
 
 .contenaire1{
-display: flex;
-justify-content: flex-start;
+    align-items: center;
 }
 
 .contenaire2{
-    display: flex;
     flex-direction: row-reverse;
-    padding-top: 1%;
 }
     
 
 .quadrilataire{
-border-radius: 12%;
+    border:5px solid rgba(0, 0, 0, 0.212);
 }
 
 .colonnes{
@@ -59,15 +61,47 @@ grid-template-columns: repeat(2, auto);
 column-gap: 10px;
 row-gap: 15px;
 justify-content: flex-end;
-
 }
 
-.rang{
-    display: flex;
+.rang3{
     justify-content: center;
-    gap: 2%
+    gap: 5%;
 }
+
+.colonnes3{
+    border-radius: 7% 27%;
+    border:5px solid  ;
+}
+
 
 .paragraphe2{
-    background-color: brown;
+    background: rgb(59,111,255);
+    background: linear-gradient(87deg, rgba(59,111,255,0.3071603641456583) 0%, rgba(254,254,254,1) 30%, rgba(254,254,254,1) 70%, rgba(59,111,255,0.27074579831932777) 100%);}
+
+
+.paragraphe3{
+    background: rgb(152,152,152);
+    background: linear-gradient(143deg, rgba(152,152,152,0.68) 0%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(152,152,152,0.68) 100%);}
+
+.titre1{
+    background: rgb(255,170,81);
+background: linear-gradient(143deg, rgba(255,170,81,0.6797093837535014) 0%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(255,170,81,0.5340511204481793) 100%);
+}
+
+.ligne1{
+    gap: 7px;
+}
+
+.imagetexte1 , .quadrilataire{
+    border-radius: 12%;
+}
+
+.imagetexte1{
+    border: 5px solid rgba(206, 98, 35, 0.445);
+}
+
+
+figcaption{
+    display: flex;
+    justify-content: end;
 }
