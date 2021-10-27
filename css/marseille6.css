@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('../css/voyages.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap'); /* GRAS */
+
 
 
 html,body{
@@ -15,7 +18,7 @@ body{
 
 
 .contenaire{ 
-    background-image: url(./image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
+    background-image: url(../image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
@@ -28,11 +31,9 @@ body{
 position: absolute;
 color: white;
 top: 40%;
-left: 2%;   
+left: 8%;   
 background-color: rgba(255, 255, 255, 0.411);
 font-size: 3.5rem;
-
-
 
 }
 
@@ -68,7 +69,7 @@ justify-content: flex-end;
 
 .rang3{
     justify-content: center;
-    gap: 5%;
+    gap: 4%;
 }
 
 .colonnes3{
@@ -120,3 +121,12 @@ font-family: 'Chivo', sans-serif;
 font-size: 2em;
 }
 
+article section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+b{
+    font-family: 'Oswald', sans-serif;
+}
