@@ -1,4 +1,4 @@
-@import url();
+@import url("../css/voyages.css");
 
 body{
     text-align: center;
@@ -116,4 +116,5 @@ h3{
 
 #l2{
     color: blanchedalmond;
-    font-family: fantasy;}
+    font-family: fantasy;
+    margin-bottom: 5%;}
