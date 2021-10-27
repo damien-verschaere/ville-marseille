@@ -1,4 +1,4 @@
-@import url(formulaire.css);
+
 .dropbutton{
     background-color: rgba(0,151,215,1);
     opacity: 0.4;
@@ -115,9 +115,10 @@
     25%{opacity: 0}
     100%{opacity: 0}  
 }
-
+/* disposition a gauche  */
 #mucem,#VC,#MAC,#SAVON {
     display: flex;
+    justify-content: flex-start;
     margin-right: 15%;
     margin-top: 10%;
     background: rgb(255,255,255);
@@ -127,10 +128,11 @@
 }
 #mucem img,#VC img,#MAC img,#SAVON img,#HDM img,#MC img,#FRICHE img,#PETANQUE img{
     border-radius: 30px;
-
 }
+/* disposition a droite  */
 #HDM,#MC,#FRICHE,#PETANQUE{
     display: flex;
+    justify-content: flex-end;
     margin-left: 15%;
     background: rgb(0,151,215);
     background: linear-gradient(90deg, rgba(0,151,215,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
@@ -148,6 +150,12 @@
 .tabmucem,.tabHDM,.tabVC,.tabMC,.tabMAC,.tabFRICHE,.tabSAV, .tabP{
     margin-left: 2%;
     margin-right: 2%;
+}
+.retourh {
+    margin-left: 47%;
+    text-decoration: none;
+    color: rgb(0,151,215);
+    margin-bottom: 10%;
 }
 footer{
     display: flex;
