@@ -74,7 +74,7 @@
  }
         
 .slideshow ul{
-    padding-bottom: 66.67%;/* ratio pour le responsive */
+    padding-bottom: 66.67%;
     margin: 0;
     list-style-type: none;
     position: relative  
