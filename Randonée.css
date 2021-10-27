@@ -46,6 +46,7 @@ font-size: 3.5rem;
 
 .contenaire1{
     align-items: center;
+    
 }
 
 .contenaire2{
@@ -54,7 +55,7 @@ font-size: 3.5rem;
     
 
 .quadrilataire{
-    border:5px solid rgba(0, 0, 0, 0.212);
+    box-shadow: 1px 1px 13px rgba(19, 157, 238, 0.452);
 }
 
 .colonnes{
@@ -72,7 +73,8 @@ justify-content: flex-end;
 
 .colonnes3{
     border-radius: 7% 27%;
-    border:5px solid  ;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.664);
+
 }
 
 
@@ -99,7 +101,7 @@ background: linear-gradient(143deg, rgba(255,170,81,0.6797093837535014) 0%, rgba
 }
 
 .imagetexte1{
-    border: 5px solid rgba(206, 98, 35, 0.445);
+    box-shadow: 1px 1px 20px rgba(206, 98, 35, 0.445);
 }
 
 
@@ -113,9 +115,8 @@ p{
 }
 
 
-h1{
+h2{
 font-family: 'Chivo', sans-serif;
 font-size: 2em;
-
 }
 
