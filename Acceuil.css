@@ -3,16 +3,22 @@ html,body{
     padding: 0%;
 }
 
+body{
+background: rgb(134,166,255);
+    background: linear-gradient(180deg, rgba(134,166,255,0.7469362745098039) 0%, rgba(254,254,254,1) 51%, rgba(254,254,254,1) 100%);   
+}
+
     .slider {
         border: 3px solid rgb(153, 60, 60);
         overflow: hidden;
         transform: scale(1);
         transition: 0.1s;
+        border-radius: 3%;
     
     }
     
     .slider:hover .slide {
-        opacity: 3;
+        opacity: 1;
     }
     
     .slider:hover {
@@ -21,13 +27,13 @@ html,body{
     
     .slide {
         float: left;
-        width: 500px;
+        width: 600px;
         height: auto;
-        opacity: 0.7;
+        opacity: 0.8;
     }
     
     .slides {
-        width: calc(500px *5);
+        width: calc(600px *5);
         animation: glisse 20s infinite;
         position: relative;
     }
@@ -37,22 +43,22 @@ html,body{
             transform: translateX(0);
         }
         25% {
-            transform: translateX(-500px);
+            transform: translateX(-600px);
         }
         50% {
-            transform: translateX(-1000px);
+            transform: translateX(-1200px);
         }
         75% {
-            transform: translateX(-1500px);
+            transform: translateX(-1800px);
         }
         100% {
-            transform: translateX(-2000px);
+            transform: translateX(0px);
         }
     }
 
-.pet{
+/* .pet{
     position: absolute;
-}
+} */
 
 header {
 background-image: url(./image/acceuil/Djwy4UcW0AAAY0T.jpg);
@@ -62,26 +68,15 @@ background-size: cover;
 box-shadow: 15px 15px 15px rgb(0, 0, 0);
 }
 
-.background1{
-    background-color: rgb(132, 173, 234);
-    border: 80px solid rgba(197, 165, 89, 0.5);
-    width: 1200px;
-    margin: auto;
+
+.contenaire1 , .contenaire2{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 4%;
 }
 
-.contenaire1{
+article section {
     display: flex;
-    justify-content: flex-start;
-
-}
-.texte1, .texte2{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
-
-.contenaire2{
-    display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    padding: 30px;
 }

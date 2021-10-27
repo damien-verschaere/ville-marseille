@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+
 html,body{
     margin: 0%;
     padding: 0%;
 }
-
-/* header {
-    } */
 
 body{
     background-size: cover;
@@ -27,12 +27,14 @@ body{
 .textedanslimage1{
 position: absolute;
 color: white;
-top: 50%;
-left: 30%;
-background-color: black;
+top: 40%;
+left: 2%;   
+background-color: rgba(255, 255, 255, 0.411);
+font-size: 3.5rem;
+
+
 
 }
-
 
 
 .contenaire1 , .contenaire2 , .rang3 , .ligne1{
@@ -101,7 +103,19 @@ background: linear-gradient(143deg, rgba(255,170,81,0.6797093837535014) 0%, rgba
 }
 
 
-figcaption{
-    display: flex;
-    justify-content: end;
+
+p{
+    margin-bottom: 1rem;
+    font-size: large;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+
 }
+
+
+h1{
+font-family: 'Chivo', sans-serif;
+font-size: 2em;
+
+}
+
