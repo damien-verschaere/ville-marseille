@@ -1,13 +1,11 @@
 @import url(../css/marseille4.css);
-html,body{
-    margin: 0;
-    padding: 0;
-}
+
 .intro{
     height: 100px;
     margin-top: 15%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 10%;
    font-family:  "Orkney Bold",sans-serif;
    color: rgba(0,151,215,1);
    font-size: 25px;
@@ -65,7 +63,7 @@ article{
     width: 100%;
     opacity: 0;
     transition: 0.5;
-    background-color: #008CBA;
+    background-color: rgba(0,151,215);
 }
 .fondu:hover .over{
     opacity: 1;
