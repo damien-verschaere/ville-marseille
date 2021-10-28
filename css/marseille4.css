@@ -1,6 +1,6 @@
 
 @import url(../css/voyages.css);
-.intro{
+.intros{
     height: 100px;
     margin-top: 10%;
     margin-left: 5%;
@@ -110,7 +110,7 @@
     border:2px solid rgba(0,151,215,1);
     }
 
-#mucem p,#HDM p,#VC p,#MC p,#MAC p,#FRICHE p,#SAVON p,#PETANQUE p{
+.texteM{
     margin-left: 2%;
     margin-right: 2%;
     font-family:  "Orkney Bold",sans-serif;

@@ -11,7 +11,7 @@ html,body{
 
 
 .contenaire{ 
-    background-image: url(../image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
+    background-image: url(../image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
@@ -114,11 +114,11 @@ font-family: 'Chivo', sans-serif;
 font-size: 2em;
 }
 
-article section {
+/* article section {
     display: flex;
     flex-direction: column;
     padding: 30px;
-}
+} */
 
 b{
     font-family: 'Oswald', sans-serif;
