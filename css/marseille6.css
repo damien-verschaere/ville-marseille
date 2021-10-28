@@ -9,13 +9,6 @@ html,body{
     padding: 0%;
 }
 
-body{
-    background-size: cover;
-    text-align: center;
-    background: rgb(134,166,255);
-    background: linear-gradient(180deg, rgba(134,166,255,0.7469362745098039) 0%, rgba(254,254,254,1) 51%, rgba(254,254,254,1) 100%);
-}
-
 
 .contenaire{ 
     background-image: url(../image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
@@ -129,4 +122,9 @@ article section {
 
 b{
     font-family: 'Oswald', sans-serif;
+}
+
+
+h2 , p{
+    text-align: center;
 }
