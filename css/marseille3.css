@@ -1,0 +1,69 @@
+@import url(../css/voyages.css);
+.intro{
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+   font-family:  "Orkney Bold",sans-serif;
+   color: rgba(0,151,215,1);
+   font-size: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+   
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+#plage1,#plage2,#plage3,#plage4,#plage5,#plage6{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#plage1 p,#plage2 p, #plage3 p, #plage4 p, #plage5 p, #plage6 p, #plage7 p{
+    color: white;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-style:italic ;
+}
+
+#plage7{
+    display: flex;
+    justify-content: center;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.fondu{
+    position: relative;
+    height: 400px;
+}
+.image{
+    display: block;
+    height:250px
+    
+}
+.over{
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5;
+    background-color: rgba(0,151,215);
+}
+.fondu:hover .over{
+    opacity: 1;
+}

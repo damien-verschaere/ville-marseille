@@ -1,0 +1,136 @@
+
+@import url(../css/voyages.css);
+.intro{
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+   font-family:  "Orkney Bold",sans-serif;
+   color: rgba(0,151,215,1);
+   font-size: 25px;
+}
+.listeMU{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2%;
+}
+.listeMU li{
+    display: inline;
+    list-style: none;
+    text-decoration: none; 
+    margin-left: 40px;
+
+}
+.listeMU a{
+    text-decoration: none;
+    font-family:  "Orkney Bold",sans-serif;
+    color:rgba(0,151,215)
+}
+.listeMU li :hover{
+    background-color: darkslategrey;
+}
+
+.slideshow{
+    border: 5px solid white;
+    box-shadow: 0 0 5px rgba(0,151,215,1);
+    overflow: hidden;
+    max-width: 600px;
+    margin: 2rem auto;
+    position: relative;
+    border-radius: 30px;
+ }
+        
+.slideshow ul{
+    padding-bottom: 66.67%;
+    margin: 0;
+    list-style-type: none;
+    position: relative  
+  }       
+.slideshow li{
+    top: 0;
+    left: 0;
+    animation: slideshow 21s ease infinite;
+    position: absolute;
+    opacity: 0;
+    }
+.slideshow li:nth-child(2){
+    animation-delay: 3s
+    }
+.slideshow li:nth-child(3){
+    animation-delay: 6s
+    }
+.slideshow li:nth-child(4){
+    animation-delay: 9s
+    }
+.slideshow li:nth-child(5){
+    animation-delay: 12s
+    }
+.slideshow li:nth-child(6){
+    animation-delay: 15s
+     }
+.slideshow li:nth-child(7){
+    animation-delay: 18s
+    }
+.slideshow li:nth-child(8){
+    animation-delay: 21s
+    }
+      
+@keyframes slideshow{   
+    0%{opacity: 0}
+    10%{opacity: 1}
+    20%{opacity: 1}
+    25%{opacity: 0}
+    100%{opacity: 0}  
+}
+/* disposition a gauche  */
+#mucem,#VC,#MAC,#SAVON {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 15%;
+    margin-top: 10%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 71%, rgba(0,151,215,1) 100%);
+    border-radius: 30px;
+    border:2px solid rgba(0,151,215,1);
+}
+#mucem img,#VC img,#MAC img,#SAVON img,#HDM img,#MC img,#FRICHE img,#PETANQUE img{
+    border-radius: 30px;
+}
+/* disposition a droite  */
+#HDM,#MC,#FRICHE,#PETANQUE{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15%;
+    background: rgb(0,151,215);
+    background: linear-gradient(90deg, rgba(0,151,215,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+    border:2px solid rgba(0,151,215,1);
+    }
+
+#mucem p,#HDM p,#VC p,#MC p,#MAC p,#FRICHE p,#SAVON p,#PETANQUE p{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family:  "Orkney Bold",sans-serif;
+    }
+.tabmucem,.tabHDM,.tabVC,.tabMC,.tabMAC,.tabFRICHE,.tabSAV, .tabP{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.retourh {
+    margin-left: 47%;
+    text-decoration: none;
+    color: rgb(0,151,215);
+    margin-bottom: 10%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    background-color: rgba(0,151,215,1) ;
+}
+footer ul{
+    list-style-type:none;
+}
