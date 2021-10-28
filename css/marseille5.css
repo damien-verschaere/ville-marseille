@@ -1,5 +1,5 @@
-
-h2{
+@import url(../css/voyages.css);
+.intro{
     color:rgba(0,151,215) ;
     text-align: center;
     margin-top: 5% ;
@@ -16,8 +16,7 @@ h2{
     margin-left: 20%;
     margin-right: 20%;
     border: solid 1px rgba(0,151,215,0.2);
-    border-radius: 30px;
-   
+    border-radius: 30px;  
 }
 
 form{
@@ -25,14 +24,6 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
-}
-main p {
-    text-align: center;
-    font-family:  "Orkney Bold",sans-serif;
-    margin-top: 10%;
-    font-size: 45px;
-
 }
 form input,form textarea,form button{
     margin-top: 5%;
