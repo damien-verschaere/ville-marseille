@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('../css/voyages.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap'); /* GRAS */
+
+
+
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.contenaire{ 
+    background-image: url(../image/randonée/cathedrale-de-la-major-detailmicalefotcm-1920x960.jpg);
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.textedanslimage1{
+position: absolute;
+color: white;
+top: 40%;
+left: 8%;   
+background-color: rgba(255, 255, 255, 0.411);
+font-size: 3.5rem;
+
+}
+
+
+.contenaire1 , .contenaire2 , .rang3 , .ligne1{
+  display: flex;  
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+
+.contenaire1{
+    align-items: center;
+    
+}
+
+.contenaire2{
+    flex-direction: row-reverse;
+}
+    
+
+.quadrilataire{
+    box-shadow: 1px 1px 13px rgba(19, 157, 238, 0.452);
+}
+
+.colonnes{
+display: grid;
+grid-template-columns: repeat(2, auto);
+column-gap: 10px;
+row-gap: 15px;
+justify-content: flex-end;
+}
+
+.rang3{
+    justify-content: center;
+    gap: 4%;
+}
+
+.colonnes3{
+    border-radius: 7% 27%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.664);
+
+}
+
+
+.paragraphe2{
+    background: rgb(59,111,255);
+    background: linear-gradient(87deg, rgba(59,111,255,0.3071603641456583) 0%, rgba(254,254,254,1) 30%, rgba(254,254,254,1) 70%, rgba(59,111,255,0.27074579831932777) 100%);}
+
+
+.paragraphe3{
+    background: rgb(152,152,152);
+    background: linear-gradient(143deg, rgba(152,152,152,0.68) 0%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(152,152,152,0.68) 100%);}
+
+.titre1{
+    background: rgb(255,170,81);
+background: linear-gradient(143deg, rgba(255,170,81,0.6797093837535014) 0%, rgba(254,254,254,1) 40%, rgba(254,254,254,1) 60%, rgba(255,170,81,0.5340511204481793) 100%);
+}
+
+.ligne1{
+    gap: 7px;
+}
+
+.imagetexte1 , .quadrilataire{
+    border-radius: 12%;
+}
+
+.imagetexte1{
+    box-shadow: 1px 1px 20px rgba(206, 98, 35, 0.445);
+}
+
+
+
+p{
+    margin-bottom: 1rem;
+    font-size: large;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+h2{
+font-family: 'Chivo', sans-serif;
+font-size: 2em;
+}
+
+article section {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+b{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h2 , p{
+    text-align: center;
+}
