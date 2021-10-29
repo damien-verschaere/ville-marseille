@@ -125,12 +125,4 @@
     color: rgb(0,151,215);
     margin-bottom: 10%;
 }
-footer{
-    display: flex;
-    justify-content: space-between;
-    height: 300px;
-    background-color: rgba(0,151,215,1) ;
-}
-footer ul{
-    list-style-type:none;
-}
+
